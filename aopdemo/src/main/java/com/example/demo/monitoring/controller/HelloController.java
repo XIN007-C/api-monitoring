@@ -12,7 +12,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 @RestController
 @RequestMapping("/aop")
 public class HelloController {
-
     static int r = 0;
 
     @GetMapping("success")
